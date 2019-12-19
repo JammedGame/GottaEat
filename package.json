@@ -1,0 +1,28 @@
+{
+  "name": "gotta-eat",
+  "version": "0.1.0",
+  "description": "GottaEat",
+  "main": "build/public/tc.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server --hot",
+    "build": "tsc && webpack --watch",
+    "prod": "tsc && webpack --mode=production"
+  },
+  "keywords": [
+    "toybox",
+    "engine",
+    "gottaEat"
+  ],
+  "author": "JammedGame",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "toybox-engine": "^0.2.0"
+  }
+}

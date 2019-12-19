@@ -1,0 +1,4 @@
+/node_modules
+/tscompiled
+/build/gottaEat.js
+package-lock.json
